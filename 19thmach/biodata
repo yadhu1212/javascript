@@ -1,0 +1,24 @@
+var FirstName = "Yadhu";
+var SecondName = "Krishna";
+var FullName = FirstName + " " + SecondName;
+const BirthDate = "03";
+const BirthMonth = "05";
+const BirthYear = 2000;
+var DateOfBirth = BirthYear + BirthMonth + BirthDate;
+const CurrentYear = 2023;
+let Age = CurrentYear - BirthYear;
+var CourseEnrolled = "MobilePhone Technology";
+let District = "Malappuram";
+let State = "Kerala";
+var Hobby1 = "photography";
+var Hobby2 = "travelling";
+var Hobby3 = "cycling";
+
+console.log(`${FullName}\n${BirthYear}-${BirthMonth}-${BirthDate}\n My name is ${FullName}.\n I'm ${Age} years old and I'm currently enrolled in ${CourseEnrolled}.\n I'm coming from ${District} district of ${State}.\n My hobbies are ${Hobby1}, ${Hobby2} and ${Hobby3}.\n Thank You.
+
+
+
+
+
+
+`);
